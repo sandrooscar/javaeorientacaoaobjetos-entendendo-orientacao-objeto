@@ -8,10 +8,10 @@ public class TestaMetodo {
 		contaSandro.titular = new Cliente();
 		contaSandro.titular.nome = "Sandro Oscar Bugmann";
 		contaSandro.deposita(5000);
-		System.out.println("Saldo é: " + contaSandro.saldo);
+		System.out.println("Saldo é: " + contaSandro.getSaldo());
 		
 		contaSandro.saca(300);
-		System.out.println("Saldo é: " + contaSandro.saldo);
+		System.out.println("Saldo é: " + contaSandro.getSaldo());
 
 		Conta contaCassio = new Conta();
 		contaCassio.titular = new Cliente();
