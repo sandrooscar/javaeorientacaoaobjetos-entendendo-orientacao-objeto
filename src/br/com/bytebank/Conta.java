@@ -1,0 +1,9 @@
+package br.com.bytebank;
+
+public class Conta {
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+
+}
